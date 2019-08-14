@@ -1,0 +1,18 @@
+1 - Torres de Hanoi
+R = 
+	a) Pode-se repretentar os movimentos dos discos com os pinos utilizando 3 listas de números inteiros, porém é necessário que os disco estejam ordenados pelo seu tamanho, menor ao maior. 
+	b) Os estados iniciais são:
+		1 - Pino com os N discos
+		2 - Dois estados para os pinos vazios
+	c) O disco menor deve ser empilhado sobre o maior
+	d) A partir de de um estado é possível movimentar um disco para N, S, L, O
+	e) O objetivo é alcançado quando todos os discos estão empilhados no pino mais a direita em ordem decrescente, de cima para baixo.
+
+2 - Buscas 
+R = 
+	a) Estados: Start-A-B-C-D-Goal
+	   Caminho da Busca: Start-A-C-D-Goal
+	b) Estados: Start-A-B-D-C-Goal
+	   Caminho da Busca: Start-D-Goal
+	c) Estados: Start-A-B-D-C-Goal
+	   Caminho da Busca: Start-A-C-Goal
