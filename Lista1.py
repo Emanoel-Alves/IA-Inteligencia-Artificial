@@ -219,4 +219,4 @@ def maior():
             print(c, b, a)
 
 if __name__=='__main__':
-    maior()
+    mdc()
